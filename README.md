@@ -1,52 +1,29 @@
-# 🎓 LMS — Learning Management System
+# Student Learning UI
 
-> A modern and responsive Learning Management System frontend built for students, teachers and administrators.
+This branch contains the **Student Learning frontend UI** for the Learning Management System (LMS).
 
-## 📌 About
+## Scope
 
-**LMS (Learning Management System)** is a web-based frontend designed to manage learning, courses, assessments and academic activities through dedicated user interfaces.
+### Student
+- Student Dashboard
+- Course Listing
+- Course Cards
+- Course Details
+- Course Modules
+- Learning Resources
+- Enrolled Courses
+- Course Search and Filters
+- Learning Progress
 
-The project is developed using a **feature-based Git workflow**, where each team member works independently on an assigned module and contributes through Pull Requests.
+## Technology
 
----
+- HTML5
+- CSS3
+- Bootstrap 5
+- Bootstrap Icons
 
-## ✨ Modules
+This branch is **frontend/UI only** and uses mock/sample data where required. Backend APIs, database connectivity, and server-side authentication are outside the current project scope.
 
-| Module | Features |
-|--------|----------|
-| 🔐 **Authentication** | Landing, Login, Registration, Forgot Password & Validation |
-| 🎓 **Student Learning** | Dashboard, Courses, Course Details, Resources & Progress |
-| 📝 **Assessment** | Assignments, Submission, Quizzes, Results & Statistics |
-| 👨‍🏫 **Teacher & Admin** | Dashboards, Users, Courses, Activity, Settings & Notifications |
+## Branch
 
----
-
-## 🛠️ Tech Stack
-
-**HTML5** · **CSS3** · **Bootstrap 5** · **Bootstrap Icons** · **Git & GitHub**
-
-> Currently a frontend-only project using mock data. No backend, API or database is integrated.
-
----
-
-## 📁 Structure
-
-```text
-LMS-Frontend/
-│
-├── index.html
-├── authentication/
-│   ├── html/
-│   └── css/
-├── student-learning/
-│   ├── html/
-│   └── css/
-├── assessment-progress/
-│   ├── html/
-│   └── css/
-├── teacher-admin/
-│   ├── html/
-│   └── css/
-├── assets/
-├── README.md
-└── .gitignore
+`feature/student-learning`
