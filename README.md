@@ -1,52 +1,39 @@
-# 🎓 LMS — Learning Management System
+# Assessment & Progress UI
 
-> A modern and responsive Learning Management System frontend built for students, teachers and administrators.
+This branch contains the **Assessment and Progress frontend UI** for the Learning Management System (LMS).
 
-## 📌 About
+## Scope
 
-**LMS (Learning Management System)** is a web-based frontend designed to manage learning, courses, assessments and academic activities through dedicated user interfaces.
+### Assignments
+- Assignment List
+- Assignment Details
+- Assignment Submission
+- Submission Status
+- Evaluation Information
 
-The project is developed using a **feature-based Git workflow**, where each team member works independently on an assigned module and contributes through Pull Requests.
+### Quizzes
+- Quiz Instructions
+- Question Interface
+- Answer Options
+- Quiz Navigation
+- Timer / Status
+- Quiz Results
 
----
+### Progress
+- Progress Dashboard
+- Progress Bars
+- Statistics Cards
+- Completion Indicators
 
-## ✨ Modules
+## Technology
 
-| Module | Features |
-|--------|----------|
-| 🔐 **Authentication** | Landing, Login, Registration, Forgot Password & Validation |
-| 🎓 **Student Learning** | Dashboard, Courses, Course Details, Resources & Progress |
-| 📝 **Assessment** | Assignments, Submission, Quizzes, Results & Statistics |
-| 👨‍🏫 **Teacher & Admin** | Dashboards, Users, Courses, Activity, Settings & Notifications |
+- HTML5
+- CSS3
+- Bootstrap 5
+- Bootstrap Icons
 
----
+This branch is **frontend/UI only** and uses mock/sample data where required. Backend APIs, database connectivity, and server-side functionality are outside the current project scope.
 
-## 🛠️ Tech Stack
+## Branch
 
-**HTML5** · **CSS3** · **Bootstrap 5** · **Bootstrap Icons** · **Git & GitHub**
-
-> Currently a frontend-only project using mock data. No backend, API or database is integrated.
-
----
-
-## 📁 Structure
-
-```text
-LMS-Frontend/
-│
-├── index.html
-├── authentication/
-│   ├── html/
-│   └── css/
-├── student-learning/
-│   ├── html/
-│   └── css/
-├── assessment-progress/
-│   ├── html/
-│   └── css/
-├── teacher-admin/
-│   ├── html/
-│   └── css/
-├── assets/
-├── README.md
-└── .gitignore
+`feature/assessment-progress`
